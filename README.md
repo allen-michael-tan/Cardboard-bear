@@ -79,9 +79,31 @@ An interface board is made to show what state the bear is in. Two different colo
 
 ## Electrical Wiring
 
+Below is full schematic diagram of all components used.
+
 ![Schematic diagram](https://github.com/allen-michael-tan/Cardboard-bear/blob/main/Images/Schematic%20diagram.jpg)
 
+The amplifier module and servo motors will not draw power from the Arduino because the combined load of all components exceeded what the Arduino can output. Instead, they will draw power from an external source that outputs 5V DC.
+
+![Power plug]()
+
+A multi-USB phone charger wall plug was the choice of power delivery. It converts AC power to DC power and has enough current in each USB socket to power the Arduino, amplifier module, and the servo motors.  
+
 ### Circuit boards
+
+![Uno board]() 
+
+Arduino Uno expansion board. 
+
+![MP3 board]()
+
+MP3 module expansion board. 
+
+![Interface board]()
+
+The interface board consists of a button switch, red and blue LED bulbs. The switch is a reset switch for the entire circuit while the LEDs are indicating lights.
+
+Extension cables of varying lengths were made, as for some components such as the servo motors require long wires (at least 2m) to be connected to the Arduino and power plug.
 
 ## Assembly
 
