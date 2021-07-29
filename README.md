@@ -2,11 +2,19 @@
 
 This repository showcases how a cardboard sculpture made by [Mr Bartholomew Ting](https://www.instagram.com/butterNmilk/) was modified and integrated with electronics to welcome students who step into Singapore Polytechnic's Makerspace. 
 
-![Cardboard lion]() 
+![Cardboard lion](https://github.com/allen-michael-tan/Cardboard-bear/blob/main/Images/Cardboard%20lion.jpeg) 
 
-![Cardboard bear]() insert updated bear
+This was how the original cardboard sculpture looked like. It was a lion, standing at a staggering height of over three meters! However, it was too tall to be placed in Makerspace which has a ceiling height of less than three meters. Therefore, modifications to the sculpture had to be made in order for it to be transported and placed in Makerspace.
+
+Hence, the decision was made to remove the mane of the lion which happened to be enough height reduction for the sculpture to fit in Makerspace.
+
+![Cardboard bear](https://github.com/allen-michael-tan/Cardboard-bear/blob/main/Images/Cardboard%20bear.jpeg) 
+
+This was how the cardboard sculpture after its "haircut". Without its mane, the lion looked very similar to a bear. Thus, the cardboard bear sculpture was born.
 
 ## Concept
+
+![Overview](https://github.com/allen-michael-tan/Cardboard-bear/blob/main/Images/Overview.jpg)
 
 The concept of this project is when someone walks past the bear, it will be able to sense it through a sensor. After which, it will "interact" with the person by flapping its ear and playing a short audio track towards the person. 
 
@@ -69,13 +77,27 @@ An interface board is made to show what state the bear is in. Two different colo
 
 ![Interface board cover](https://github.com/allen-michael-tan/Cardboard-bear/blob/main/Images/Interface%20board%20cover.jpeg)
 
-## Wiring
+## Electrical Wiring
 
 ![Schematic diagram](https://github.com/allen-michael-tan/Cardboard-bear/blob/main/Images/Schematic%20diagram.jpg)
 
 ### Circuit boards
 
 ## Assembly
+
+Motors
+
+Speakers
+
+Uno and DFPlayer
+
+GF1002
+
+PIR sensor
+
+
+
+
 
 ### Setup
 
@@ -85,7 +107,7 @@ An interface board is made to show what state the bear is in. Two different colo
 
 All the codes used for the project can be found [here](https://github.com/allen-michael-tan/Cardboard-bear/tree/main/Code). 
 
-### Servo motor 
+### Servo motor code
 
 	#include <Servo.h>
 	
@@ -121,7 +143,7 @@ All the codes used for the project can be found [here](https://github.com/allen-
 	  }
 	 }
 
-### PIR
+### PIR sensor code
 
 	int calibrationTime = 10; // Calibration time (10 - 60 secs)
 	
@@ -196,7 +218,7 @@ All the codes used for the project can be found [here](https://github.com/allen-
 	  }
 	}
 
-### MP3 
+### MP3 module code
 
 	#include <NeoSWSerial.h>
 	#include "DFRobotDFPlayerMini.h"
