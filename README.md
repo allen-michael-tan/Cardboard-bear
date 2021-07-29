@@ -2,15 +2,21 @@
 
 This repository showcases how a cardboard sculpture made by [Mr Bartholomew Ting](https://www.instagram.com/butterNmilk/) was modified and integrated with electronics to welcome students who step into Singapore Polytechnic's Makerspace. 
 
-insert original cardboard sculpture pic
+![Cardboard lion]() 
 
-insert updated bear
+![Cardboard bear]() insert updated bear
 
 ## Concept
 
-insert gif of concept
+The concept of this project is when someone walks past the bear, it will be able to sense it through a sensor. After which, it will "interact" with the person by flapping its ear and playing a short audio track towards the person. 
+
+Below is a short illustration of the concept.
+
+![Concept](https://github.com/allen-michael-tan/Cardboard-bear/blob/main/Images/Concept.gif)
 
 ## Design
+
+All CAD models were modelled using Autodesk Inventor, the files can be found [here](https://github.com/allen-michael-tan/Kinematic-clock/tree/main/Inventor%20files).
 
 The elctrical components used in this project are listed below. 
 
