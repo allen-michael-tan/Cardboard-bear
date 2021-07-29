@@ -47,9 +47,11 @@ Both ears are individually actuated by servo motors. A mount for the servo motor
 
 ![Servo mount](https://github.com/allen-michael-tan/Cardboard-bear/blob/main/Images/Servo%20mount.jpg)
 
-Two acrylic servo arms were laser cut, they were used in conjunction with nylon string to translate the motion of the servo motors to the ears.
+Two acrylic servo arms of 5mm thickness were laser cut, they were used in conjunction with nylon string to translate the motion of the servo motors to the ears.
 
 ![Servo arm](https://github.com/allen-michael-tan/Cardboard-bear/blob/main/Images/Servo%20arm.jpg)
+
+****
 
 ### PIR sensor
 
@@ -58,6 +60,8 @@ Two acrylic servo arms were laser cut, they were used in conjunction with nylon 
 To attach the PIR sensor to the bottom of the "chin" of the bear, a 3D printed mount was made.
 
 ![PIR mount](https://github.com/allen-michael-tan/Cardboard-bear/blob/main/Images/PIR%20mount.jpeg)
+
+****
 
 ### GF1002 Amplifier module
 
@@ -70,6 +74,8 @@ The purpose of this module is to allow users to easily control the volume of the
 To make it easier for users to adjust the volume of the speakers, a volume knob was designed and 3D printed. It was slotted into the potentiometer of the module. 
 
 ![Volume knob](https://github.com/allen-michael-tan/Cardboard-bear/blob/main/Images/Volume%20knob.jpeg)
+
+****
 
 ### Interface board
 
@@ -107,23 +113,63 @@ Extension cables of varying lengths were made, as for some components such as th
 
 ## Assembly
 
-Motors
+### Servo motors and ears
 
-Speakers
+![Servo assembly]()
 
-Uno and DFPlayer
+****
 
-GF1002
+### GF1002 and speakers
 
-PIR sensor
+![GF1002 assembly]()
 
+![GF1002 installed]() {with interface board also}
 
+![Speaker w tape]()
 
+![Speaker placement]()
 
+![Speaker installed]() {with knob also}
 
-### Setup
+****
+
+### Arduino Uno and MP3 module
+
+A cut out on the body was made, so it can be pulled open when head is not on
+
+![Board mounting]()
+
+****
+
+### PIR sensor
+
+![PIR assembly]() 
+
+![Velcro]() {PIR velcro-ed to the chin}
+
+for transportation of the head, the PIR can be easily detached from the head. and when operation it is secure, wont drop
+
+****
+
+### Interface board
+
+![Interface mounting]()
+
+![Interface installed]() {with GF1002 also}
+
+****
+
+### Putting them together
+
+![Servo wire through head]()
+
+![Head on body]()
+
+talk about how
 
 ### Disassembly
+
+see if need this section
 
 ## Code 
 
@@ -587,6 +633,16 @@ Initially the Software.Serial library was used, however,
 
 To help with troubleshooting
 
+![]() blinking lights?
+
 ## Operation
 
+Show speaker preemptively playing (loud static noise)
+
+then talk about solution
+
 ## Final Product
+
+![Final product]()
+
+Youtube of bear in action
