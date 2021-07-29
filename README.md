@@ -1,12 +1,83 @@
 # Cardboard bear
 
-## 
+This repository showcases how a cardboard sculpture made by [Mr Bartholomew Ting](https://www.instagram.com/butterNmilk/) was modified and integrated with electronics to welcome students who step into Singapore Polytechnic's Makerspace. 
 
-## 
+insert original cardboard sculpture pic
+
+insert updated bear
+
+## Concept
+
+insert gif of concept
+
+## Design
+
+The elctrical components used in this project are listed below. 
+
+1. Arduino Uno [1]
+2. SM-S3317B servo motors [2] 
+2. PIR sensor [1]
+3. DFR0299 MP3 player module [1] 
+4. GF1002 amplifier module [1]
+5. 3W speakers [2]
+6. Button switch [1]
+7. Blue LED bulb [1]
+8. Red LED bulb [1]
+9. 1k ohm resistor [3]
+
+### Servo motor
+
+![SM-S3317B]()
+
+Both ears are individually actuated by servo motors. A mount for the servo motors were designed and 3D printed. 
+
+![Servo motor mount]()
+
+Two acrylic servo arms were laser cut, they were used in conjunction with nylon string to translate the motion of the servo motors to the ears.
+
+![Servo arm]()
+
+### PIR sensor
+
+![PIR sensor]()
+
+To attach the PIR sensor to the bottom of the "chin" of the bear, a 3D printed mount was made.
+
+![PIR mount]()
+
+### GF1002 Amplifier module
+
+![GF1002]()
+
+The purpose of this module is to allow users to easily control the volume of the speakers without the use of code. This module was installed inside the body of the bear. Thus, a 3D printed holder was made to ensure that it could be securely installed in the bear.
+
+![GF1002 mount]()
+
+To make it easier for users to adjust the volume of the speakers, a volume knob was designed and 3D printed. It was slotted into the potentiometer of the module. 
+
+![Volume knob]()
+
+### Interface board
+
+An interface board is made to show what state the bear is in. Two different coloured LED bulbs - blue and red, were used to indicate the different states. To make it easy to install, a 3D printed cover with the relevant cutouts was made to cover the board. 
+
+![Interface board cover]()
 
 ## Wiring
 
+![Schematic diagram]()
+
+### Circuit boards
+
+## Assembly
+
+### Setup
+
+### Disassembly
+
 ## Code 
+
+All the codes used for the project can be found [here](https://github.com/allen-michael-tan/Cardboard-bear/tree/main/Code). 
 
 ### Servo motor 
 
@@ -120,7 +191,6 @@
 	}
 
 ### MP3 
-Lmao
 
 	#include <NeoSWSerial.h>
 	#include "DFRobotDFPlayerMini.h"
@@ -466,5 +536,7 @@ Initially the Software.Serial library was used, however,
 	}
 
 To help with troubleshooting
+
+## Operation
 
 ## Final Product
