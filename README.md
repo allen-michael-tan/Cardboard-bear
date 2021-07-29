@@ -27,45 +27,45 @@ The elctrical components used in this project are listed below.
 
 ### Servo motor
 
-![SM-S3317B]()
+![SM-S3317B](https://github.com/allen-michael-tan/Cardboard-bear/blob/main/Images/SM-S3317B.jpg)
 
 Both ears are individually actuated by servo motors. A mount for the servo motors were designed and 3D printed. 
 
-![Servo motor mount]()
+![Servo mount](https://github.com/allen-michael-tan/Cardboard-bear/blob/main/Images/Servo%20mount.jpg)
 
 Two acrylic servo arms were laser cut, they were used in conjunction with nylon string to translate the motion of the servo motors to the ears.
 
-![Servo arm]()
+![Servo arm](https://github.com/allen-michael-tan/Cardboard-bear/blob/main/Images/Servo%20arm.jpg)
 
 ### PIR sensor
 
-![PIR sensor]()
+![PIR sensor](https://github.com/allen-michael-tan/Cardboard-bear/blob/main/Images/PIR%20sensor.jpg)
 
 To attach the PIR sensor to the bottom of the "chin" of the bear, a 3D printed mount was made.
 
-![PIR mount]()
+![PIR mount](https://github.com/allen-michael-tan/Cardboard-bear/blob/main/Images/PIR%20mount.jpeg)
 
 ### GF1002 Amplifier module
 
-![GF1002]()
+![GF1002](https://github.com/allen-michael-tan/Cardboard-bear/blob/main/Images/GF1002.jpg)
 
 The purpose of this module is to allow users to easily control the volume of the speakers without the use of code. This module was installed inside the body of the bear. Thus, a 3D printed holder was made to ensure that it could be securely installed in the bear.
 
-![GF1002 mount]()
+![GF1002 mount](https://github.com/allen-michael-tan/Cardboard-bear/blob/main/Images/GF1002%20mount.jpeg)
 
 To make it easier for users to adjust the volume of the speakers, a volume knob was designed and 3D printed. It was slotted into the potentiometer of the module. 
 
-![Volume knob]()
+![Volume knob](https://github.com/allen-michael-tan/Cardboard-bear/blob/main/Images/Volume%20knob.jpeg)
 
 ### Interface board
 
 An interface board is made to show what state the bear is in. Two different coloured LED bulbs - blue and red, were used to indicate the different states. To make it easy to install, a 3D printed cover with the relevant cutouts was made to cover the board. 
 
-![Interface board cover]()
+![Interface board cover](https://github.com/allen-michael-tan/Cardboard-bear/blob/main/Images/Interface%20board%20cover.jpeg)
 
 ## Wiring
 
-![Schematic diagram]()
+![Schematic diagram](https://github.com/allen-michael-tan/Cardboard-bear/blob/main/Images/Schematic%20diagram.jpg)
 
 ### Circuit boards
 
