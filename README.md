@@ -697,25 +697,25 @@ When the PIR sensor detects any motion i.e. a student walking past, the blue LED
 
 **Start up problem**
 
-Show speaker preemptively playing (loud static noise)
+There is this problem where the speakers will produce satic noise immediately after the bear was powered on. To find out more about this problem, the link is below.
 
 [![Problem video](https://img.youtube.com/vi//0.jpg)](https://youtu.be/)
 
-then talk about solution
+The solution is to turn off and on the bear repeatedly until the static noise goes away upon powering on. It is important to wait for the plug to power down completely before switching it back on again as the plug may retain power for awhile even after the switch is turned off. To find out how to implement this solution, click on the video below.
 
 [![Solution video](https://img.youtube.com/vi//0.jpg)](https://youtu.be/)
 
 **Adding/removing sound tracks**
 
-How to add/remove music
+To add or remove sound tracks, the steps are as follows:
 
-- show ss of the code (what to edit)
-- show ss of the mp3 folder
-- set how long each mp3 should be
-
-![Code ss]()
-
-![MP3 folder]()
+1. Remove the micro SD card from the MP3 module.
+2. Open the mp3 folder in the SD card.
+3. Add or remove sound tracks in the folder, follow the naming convention as the other tracks in the folder.
+![MP3 folder](https://github.com/allen-michael-tan/Cardboard-bear/blob/main/Images/MP3%20folder.jpg) **Note: It is very important to not remove or change the sound track named "001" and keep the sound track within 5 seconds and the format is in ".mp3".**
+4. Insert the SD card back to the MP3 module.
+5. For this line of code - " mp3track = random(1,23);" change the number "23" to the number of the last sound track. For example if the final sound track is named "031.mp3", change "23" to "31". 
+![Code ss](https://github.com/allen-michael-tan/Cardboard-bear/blob/main/Images/Code%20ss.jpg)
 
 ## Final Product
 
