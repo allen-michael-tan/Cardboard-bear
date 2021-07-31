@@ -699,9 +699,13 @@ When the PIR sensor detects any motion i.e. a student walking past, the blue LED
 
 Show speaker preemptively playing (loud static noise)
 
+[![Problem video](https://img.youtube.com/vi//0.jpg)](https://youtu.be/)
+
 then talk about solution
 
-** Adding/removing sound tracks**
+[![Solution video](https://img.youtube.com/vi//0.jpg)](https://youtu.be/)
+
+**Adding/removing sound tracks**
 
 How to add/remove music
 
@@ -709,10 +713,14 @@ How to add/remove music
 - show ss of the mp3 folder
 - set how long each mp3 should be
 
+![Code ss]()
 
+![MP3 folder]()
 
 ## Final Product
 
 ![Final product]()
 
 Youtube of bear in action
+
+[![Product video](https://img.youtube.com/vi//0.jpg)](https://youtu.be/)
