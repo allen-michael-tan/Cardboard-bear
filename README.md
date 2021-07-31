@@ -91,7 +91,7 @@ Below is full schematic diagram of all components used.
 
 The amplifier module and servo motors will not draw power from the Arduino because the combined load of all components exceeded what the Arduino can output. Instead, they will draw power from an external source that outputs 5V DC.
 
-![Power plug]()
+![Power plug](https://github.com/allen-michael-tan/Cardboard-bear/blob/main/Images/Power%20plug.jpeg)
 
 A multi-USB phone charger wall plug was the choice of power delivery. It converts AC power to DC power and has enough current in each USB socket to power the Arduino, amplifier module, and the servo motors.  
 
@@ -99,11 +99,11 @@ A multi-USB phone charger wall plug was the choice of power delivery. It convert
 
 ![Uno board](https://github.com/allen-michael-tan/Cardboard-bear/blob/main/Images/Uno%20board.jpeg) 
 
-Arduino Uno expansion board. 
+*Arduino Uno expansion board*
 
-![MP3 board]()
+![MP3 board](https://github.com/allen-michael-tan/Cardboard-bear/blob/main/Images/MP3%20board.jpeg)
 
-MP3 module expansion board. 
+*MP3 module expansion board* 
 
 ![Interface board](https://github.com/allen-michael-tan/Cardboard-bear/blob/main/Images/Interface%20board.jpeg)
 
@@ -117,51 +117,90 @@ Extension cables of varying lengths were made, as for some components such as th
 
 ![Servo assembly](https://github.com/allen-michael-tan/Cardboard-bear/blob/main/Images/Servo%20assembly.jpg)
 
+As shown was the assembly of the ear movement system. The servo motor (blue box) was bolted onto the servo mount with bolts and nuts. Next, holes were drilled into the top of the head so that the mount could be bolted down. At the same time, the acrylic servo arm was also securely attached to the servo motor with screws. Lastly, nylon thread [red box] was used to connect the servo arm to the ear through holes in the servo arm and holes that were pre-drilled into the ear.   
+
+The process for the right ear was exactly the same. 
+
 ****
 
 ### GF1002 and speakers
 
 ![GF1002 assembly](https://github.com/allen-michael-tan/Cardboard-bear/blob/main/Images/GF1002%20assembly.jpeg)
 
-![GF1002 installed](https://github.com/allen-michael-tan/Cardboard-bear/blob/main/Images/GF1002%20installed.jpg) 
+This was how the amplifier module was installed onto its mount. 
+
+![GF1002 installed](https://github.com/allen-michael-tan/Cardboard-bear/blob/main/Images/GF1002%20installed.jpg)
+
+To attach the mount onto the body, double-sided foam tape was used (red arrow). A hole was pre-drilled to let the potentiometer protude out so that the volume knob can be pushed in from the front. 
 
 ![Speaker w tape](https://github.com/allen-michael-tan/Cardboard-bear/blob/main/Images/Speaker%20w%20tape.jpeg)
 
-![Speaker placement]()
+The speakers were adhered onto the bear with the use of double-sided foam tape placed around the speaker as shown above. 
+
+![Speaker placement](https://github.com/allen-michael-tan/Cardboard-bear/blob/main/Images/Speaker%20placement.jpg)
+
+The speakers were attached behind the bow tie of the bear in the following circled locations.
 
 ![Speaker installed](https://github.com/allen-michael-tan/Cardboard-bear/blob/main/Images/Speaker%20installed.jpg) 
+
+This was how the speaker (red box) looked like from behind the bow tie. 
+
+Furthermore, the volume knob (blue box) was also pushed into the potentiometer. 
 
 ****
 
 ### Arduino Uno and MP3 module
 
-A cut out on the body was made, so it can be pulled open when head is not on
+To allow for easy access to the pins of the arduino, a hinged cut out was made to the top of the body of the bear. This way, in case any maintainence or troubleshooting had to be done, the head would only need to be tilted to make room for the cut out to be lifted up.
 
 ![Board mounting](https://github.com/allen-michael-tan/Cardboard-bear/blob/main/Images/Board%20mounting.jpeg)
+
+The Arduino and MP3 expansion boards are adhered to the underside of the cut out using double-sided foam tape as shown above (Arduino and MP3 module had already been installed here). 
 
 ****
 
 ### PIR sensor
 
-![PIR assembly](https://github.com/allen-michael-tan/Cardboard-bear/blob/main/Images/PIR%20assembly.jpg) 
+![PIR assembly](https://github.com/allen-michael-tan/Cardboard-bear/blob/main/Images/PIR%20assembly.jpg)
+
+In the assembly of the PIR sensor to its mount, two screws (blue arrows) were used.
+
+The PIR sensor was mounted on the underside of the bear's chin. However, velcro strips were used in place of bolts and nuts in the attachment of the sensor. This was because should the bear be transported elsewhere, it would be easier to pull the sensor away from the mount rather than to remove screws.
 
 ![Velcro]() {PIR velcro-ed to the chin}
-
-for transportation of the head, the PIR can be easily detached from the head. and when operation it is secure, wont drop
 
 ****
 
 ### Interface board
 
+The interface board was covered with its 3D printed cover.
+
 ![Interface mounting](https://github.com/allen-michael-tan/Cardboard-bear/blob/main/Images/Interface%20mounting.jpeg)
 
+To attach this board, two circular holes and a square hole above the bow tie were respectively drilled and cut out. Subsequently, the interface board with its covered was attached from the inside.  
+
 ![Interface installed](https://github.com/allen-michael-tan/Cardboard-bear/blob/main/Images/Interface%20installed.jpg)
+
+Double-sided foam tape was used to adhere the board (blue arrow) to the bear. 
 
 ****
 
 ### Putting them together
 
-![Servo wire through head]()
+Before the head was placed on top of the body, all wires were connected to theirs corresponding ports except for the data wire of both servo motors. This was because those particular wires had to be connected to the GPIO pins of the Arduino which was situated in the body whereas the data wires were coming in from the head. 
+
+Thus, as previously mentioned, a custom soldered wire was created, were the data wires were intertwined and made especially long. 
+
+Steps taken to place the head onto the body:
+
+1. After all other wires were connected, the head was lifted and placed on top of the body.
+2. The data wires (encircled with yellow) of the servo motors were shoved into the gap between the head and face of the bear as shown below.
+![Servo wire through head 1]()
+3. After that, the wires were routed through the gap to the bottom of the head. *(A white line was drawn on the image below for illustration.)*
+![Servo wire through head 2]()
+4. Finally, the cut out in the body was lifted up, and the data wires were connected to the Arduino expansion board as shown. *(Note, the shiny part of the dupont head should be face outside)
+![Servo wire connected]()  
+
 
 ![Head on body]()
 
@@ -636,6 +675,12 @@ To help with troubleshooting
 ![]() blinking lights?
 
 ## Operation
+
+How to add/remove music
+
+- show ss of the code (what to edit)
+- show ss of the mp3 folder
+- set how long each mp3 should be
 
 Show speaker preemptively playing (loud static noise)
 
