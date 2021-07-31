@@ -97,7 +97,7 @@ A multi-USB phone charger wall plug was the choice of power delivery. It convert
 
 ### Circuit boards
 
-![Uno board]() 
+![Uno board](https://github.com/allen-michael-tan/Cardboard-bear/blob/main/Images/Uno%20board.jpeg) 
 
 Arduino Uno expansion board. 
 
@@ -105,7 +105,7 @@ Arduino Uno expansion board.
 
 MP3 module expansion board. 
 
-![Interface board]()
+![Interface board](https://github.com/allen-michael-tan/Cardboard-bear/blob/main/Images/Interface%20board.jpeg)
 
 The interface board consists of a button switch, red and blue LED bulbs. The switch is a reset switch for the entire circuit while the LEDs are indicating lights.
 
@@ -115,21 +115,21 @@ Extension cables of varying lengths were made, as for some components such as th
 
 ### Servo motors and ears
 
-![Servo assembly]()
+![Servo assembly](https://github.com/allen-michael-tan/Cardboard-bear/blob/main/Images/Servo%20assembly.jpg)
 
 ****
 
 ### GF1002 and speakers
 
-![GF1002 assembly]()
+![GF1002 assembly](https://github.com/allen-michael-tan/Cardboard-bear/blob/main/Images/GF1002%20assembly.jpeg)
 
-![GF1002 installed]() {with interface board also}
+![GF1002 installed](https://github.com/allen-michael-tan/Cardboard-bear/blob/main/Images/GF1002%20installed.jpg) 
 
-![Speaker w tape]()
+![Speaker w tape](https://github.com/allen-michael-tan/Cardboard-bear/blob/main/Images/Speaker%20w%20tape.jpeg)
 
 ![Speaker placement]()
 
-![Speaker installed]() {with knob also}
+![Speaker installed](https://github.com/allen-michael-tan/Cardboard-bear/blob/main/Images/Speaker%20installed.jpg) 
 
 ****
 
@@ -137,13 +137,13 @@ Extension cables of varying lengths were made, as for some components such as th
 
 A cut out on the body was made, so it can be pulled open when head is not on
 
-![Board mounting]()
+![Board mounting](https://github.com/allen-michael-tan/Cardboard-bear/blob/main/Images/Board%20mounting.jpeg)
 
 ****
 
 ### PIR sensor
 
-![PIR assembly]() 
+![PIR assembly](https://github.com/allen-michael-tan/Cardboard-bear/blob/main/Images/PIR%20assembly.jpg) 
 
 ![Velcro]() {PIR velcro-ed to the chin}
 
@@ -153,9 +153,9 @@ for transportation of the head, the PIR can be easily detached from the head. an
 
 ### Interface board
 
-![Interface mounting]()
+![Interface mounting](https://github.com/allen-michael-tan/Cardboard-bear/blob/main/Images/Interface%20mounting.jpeg)
 
-![Interface installed]() {with GF1002 also}
+![Interface installed](https://github.com/allen-michael-tan/Cardboard-bear/blob/main/Images/Interface%20installed.jpg)
 
 ****
 
