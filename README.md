@@ -719,8 +719,12 @@ To add or remove sound tracks, the steps are as follows:
 
 ## Final Product
 
+Below are an image of the finished cardboard bear project and a short video of the bear in operation.
+
 ![Final product]()
 
-Youtube of bear in action
+*Finished project*
 
 [![Product video](https://img.youtube.com/vi//0.jpg)](https://youtu.be/)
+
+*Short video of the bear in action*
