@@ -195,9 +195,9 @@ Steps taken to place the head onto the body:
 
 1. After all other wires were connected, the head was lifted and placed on top of the body.
 2. The data wires (encircled with yellow) of the servo motors were shoved into the gap between the head and face of the bear as shown below.
-![Servo wire through head 1]()
+![Servo wire through head 1](https://github.com/allen-michael-tan/Cardboard-bear/blob/main/Images/Servo%20wire%20through%20head%201.jpg)
 3. After that, the wires were routed through the gap to the bottom of the head. *(A white line was drawn on the image below for illustration.)*
-![Servo wire through head 2]()
+![Servo wire through head 2](https://github.com/allen-michael-tan/Cardboard-bear/blob/main/Images/Servo%20wire%20thorugh%20head%202.jpg)
 4. Finally, the cut out in the body was lifted up, and the data wires were connected to the Arduino expansion board as shown. *(Note, the shiny part of the dupont head should be face outside)
 ![Servo wire connected]()  
 
