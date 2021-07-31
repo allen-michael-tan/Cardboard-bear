@@ -201,14 +201,15 @@ Steps taken to place the head onto the body:
 4. Finally, the cut out in the body was lifted up, and the data wires were connected to the Arduino expansion board as shown. *(Note, the shiny part of the dupont head should be face outside)
 ![Servo wire connected]()  
 
-
-![Head on body]()
-
-talk about how
-
 ### Disassembly
 
-see if need this section
+For disassembly, there is a couple steps.
+
+1. Disconnect the data pins of the servo motors from the Arduino expansion board and remove them from the body.
+2. Detach the PIR sensor from the chin.
+3. Remove the head from the body by carrying it away.
+
+Now, the bear sculpture is in two pieces and can be transported safely and easily.
 
 ## Code 
 
@@ -425,7 +426,11 @@ All the codes used for the project can be found [here](https://github.com/allen-
 	  }
 	}
 
-Initially the Software.Serial library was used, however, 
+Initially the <SoftwareSerial.h> library to control the MP3 module was used, however, that library conflicted with the <servo.h> library used to control the servos. It caused the servo motors to jitter and sometimes made them go spastic. Furthermore, the conflict also made the MP3 module unable to play any error.
+
+Therefore, a solution to this was to use the <NeoSWSerial.h> library to control the MP3 module. 
+
+Although there were other solutions such as using a servo motor driver to drive the servo motors or changeingto a different microcontroller such as an Arduino Mega that has hardware serial already built into the board. The <NeoSWSerial.h> library solution was ultimately chosen due to it being the easiest and lowest cost solution to implement.
 
 ### Full code
 
@@ -670,11 +675,33 @@ Initially the Software.Serial library was used, however,
 	  } 
 	}
 
-To help with troubleshooting
+As mentioned before, apart of being used to reset the entire circuit, the other function of the interface board is to indicate the different state at which the bear is at. There are four states.
 
-![]() blinking lights?
+**First state: System start up**
+
+When the bear is first powered on, the red LED light up for 3 seconds.
+
+**Second state: MP3 startup failure**
+
+If the MP3 failed to start, the red LED will blink every 1 second.
+
+**Third state: Successful start up**
+
+Upon a successful system start up, the blue LED will light up for 5 seconds. In addition to that, the speakers will play a welcome message to indicate the bear is working.
+
+**Fourth state: Motion detected**
+
+When the PIR sensor detects any motion i.e. a student walking past, the blue LED will turn on as long as there is any motion detected until all motion has ended five seconds after the last detected motion. 
 
 ## Operation
+
+**Start up problem**
+
+Show speaker preemptively playing (loud static noise)
+
+then talk about solution
+
+** Adding/removing sound tracks**
 
 How to add/remove music
 
@@ -682,9 +709,7 @@ How to add/remove music
 - show ss of the mp3 folder
 - set how long each mp3 should be
 
-Show speaker preemptively playing (loud static noise)
 
-then talk about solution
 
 ## Final Product
 
