@@ -712,7 +712,7 @@ To add or remove sound tracks, the steps are as follows:
 1. Remove the micro SD card from the MP3 module.
 2. Open the mp3 folder in the SD card.
 3. Add or remove sound tracks in the folder, follow the naming convention as the other tracks in the folder.
-![MP3 folder](https://github.com/allen-michael-tan/Cardboard-bear/blob/main/Images/MP3%20folder.jpg) **Note: It is very important to not remove or change the sound track named "001" and keep the sound track within 5 seconds and the format is in ".mp3".**
+![MP3 folder](https://github.com/allen-michael-tan/Cardboard-bear/blob/main/Images/MP3%20folder.jpg) _**Note: It is very important to not remove or change the sound track named "001" and keep the sound track within 5 seconds and the format is in ".mp3".**_
 4. Insert the SD card back to the MP3 module.
 5. For this line of code - " mp3track = random(1,23);" change the number "23" to the number of the last sound track. For example if the final sound track is named "031.mp3", change "23" to "31". 
 ![Code ss](https://github.com/allen-michael-tan/Cardboard-bear/blob/main/Images/Code%20ss.jpg)
