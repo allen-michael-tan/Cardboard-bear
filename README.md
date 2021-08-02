@@ -721,7 +721,7 @@ To add or remove sound tracks, the steps are as follows:
 
 Below are an image of the finished cardboard bear project and a short video of the bear in operation.
 
-![Final product]()
+![Final product](https://github.com/allen-michael-tan/Cardboard-bear/blob/main/Images/Final%20product.jpeg)
 
 *Finished project*
 
