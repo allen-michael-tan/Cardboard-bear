@@ -165,9 +165,9 @@ The Arduino and MP3 expansion boards are adhered to the underside of the cut out
 
 In the assembly of the PIR sensor to its mount, two screws (blue arrows) were used.
 
-The PIR sensor was mounted on the underside of the bear's chin. However, velcro strips were used in place of bolts and nuts in the attachment of the sensor. This was because should the bear be transported elsewhere, it would be easier to pull the sensor away from the mount rather than to remove screws.
+The PIR sensor was mounted on the underside of the bear's chin (blue box). However, velcro strips were used in place of bolts and nuts in the attachment of the sensor. This was because should the bear be transported elsewhere, it would be easier to pull the sensor away from the mount rather than to remove screws.
 
-![Velcro]() {PIR velcro-ed to the chin}
+![Velcro](https://github.com/allen-michael-tan/Cardboard-bear/blob/main/Images/Velcro.jpg)
 
 ****
 
@@ -198,8 +198,8 @@ Steps taken to place the head onto the body:
 ![Servo wire through head 1](https://github.com/allen-michael-tan/Cardboard-bear/blob/main/Images/Servo%20wire%20through%20head%201.jpg)
 3. After that, the wires were routed through the gap to the bottom of the head. *(A white line was drawn on the image below for illustration.)*
 ![Servo wire through head 2](https://github.com/allen-michael-tan/Cardboard-bear/blob/main/Images/Servo%20wire%20thorugh%20head%202.jpg)
-4. Finally, the cut out in the body was lifted up, and the data wires were connected to the Arduino expansion board as shown. *(Note, the shiny part of the dupont head should be face outside)
-![Servo wire connected]()  
+4. Finally, the cut out in the body was lifted up, and the data wires were connected to the Arduino expansion board as shown (red box). *(Note, the shiny part of the dupont head should be face outside)
+![Servo wire connected](https://github.com/allen-michael-tan/Cardboard-bear/blob/main/Images/Servo%20wire%20connected.jpg)  
 
 ### Disassembly
 
@@ -699,7 +699,7 @@ When the PIR sensor detects any motion i.e. a student walking past, the blue LED
 
 There is this problem where the speakers will produce satic noise immediately after the bear was powered on. To find out more about this problem, the link is below.
 
-[![Problem video](https://img.youtube.com/vi//0.jpg)](https://youtu.be/)
+[![Problem video](https://img.youtube.com/vi/13f0RLJsI6g/0.jpg)](https://youtu.be/13f0RLJsI6g)
 
 The solution is to turn off and on the bear repeatedly until the static noise goes away upon powering on. It is important to wait for the plug to power down completely before switching it back on again as the plug may retain power for awhile even after the switch is turned off. To find out how to implement this solution, click on the video below.
 
@@ -725,6 +725,6 @@ Below are an image of the finished cardboard bear project and a short video of t
 
 *Finished project*
 
-[![Product video](https://img.youtube.com/vi//0.jpg)](https://youtu.be/)
+[![Product video](https://img.youtube.com/vi/WaNZcLU6RV4/0.jpg)](https://youtu.be/WaNZcLU6RV4)
 
 *Short video of the bear in action*
