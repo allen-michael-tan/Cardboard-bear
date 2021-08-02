@@ -679,19 +679,19 @@ As mentioned before, apart of being used to reset the entire circuit, the other 
 
 **First state: System start up**
 
-When the bear is first powered on, the red LED light up for 3 seconds.
+- When the bear is first powered on, the red LED light up for 3 seconds.
 
 **Second state: MP3 startup failure**
 
-If the MP3 failed to start, the red LED will blink every 1 second.
+- If the MP3 failed to start, the red LED will blink every 1 second.
 
 **Third state: Successful start up**
 
-Upon a successful system start up, the blue LED will light up for 5 seconds. In addition to that, the speakers will play a welcome message to indicate the bear is working.
+- Upon a successful system start up, the blue LED will light up for 5 seconds. In addition to that, the speakers will play a welcome message to indicate the bear is working.
 
 **Fourth state: Motion detected**
 
-When the PIR sensor detects any motion i.e. a student walking past, the blue LED will turn on as long as there is any motion detected until all motion has ended five seconds after the last detected motion. 
+- When the PIR sensor detects any motion i.e. a student walking past, the blue LED will turn on as long as there is any motion detected until all motion has ended five seconds after the last detected motion. 
 
 ## Operation
 
