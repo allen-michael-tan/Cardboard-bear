@@ -701,9 +701,9 @@ There is this problem where the speakers will produce satic noise immediately af
 
 [![Problem video](https://img.youtube.com/vi/13f0RLJsI6g/0.jpg)](https://youtu.be/13f0RLJsI6g)
 
-The solution is to turn off and on the bear repeatedly until the static noise goes away upon powering on. It is important to wait for the plug to power down completely before switching it back on again as the plug may retain power for awhile even after the switch is turned off. To find out how to implement this solution, click on the video below.
+The solution is to mute the speakers first by turning the volume knob anticlockwise until a click sound could be heard. Next, turn the bear off but switching off the plug, wait for the plug to power down completely before switching it on again. Unmute and turn up the volume of the speakers and wait. If the static noise still persists, let the speakers play for awhile. If that does not work, repeat the aforementioned process. To find out more, a video is shown below.
 
-[![Solution video](https://img.youtube.com/vi//0.jpg)](https://youtu.be/)
+[![Solution video](https://img.youtube.com/vi/AegnCoVfNu4/0.jpg)](https://youtu.be/AegnCoVfNu4)
 
 **Adding/removing sound tracks**
 
